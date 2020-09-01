@@ -38,7 +38,7 @@ EG:![image info](./images/set-session.png)
 
 so the session storage now  has  data with key `MyCat`
 
-![image info](./images/data-saved.png)p
+![image info](./images/data-saved.png)
 
 #### Getting data
 
