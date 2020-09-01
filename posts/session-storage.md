@@ -34,11 +34,11 @@ sessionStorage.setItem('key', 'Value');
 ```
 
 the above code will add the given key-value pair to session storage.
-EG:![image info](images/set-session.png)
+EG:![image info](./images/set-session.png)
 
 so the session storage has one data with key `MyCat`
 
-![image info](images/data-saved.png)p
+![image info](./images/data-saved.png)p
 
 
 #### Getting data
@@ -48,7 +48,7 @@ syntax :
 sessionStorage.getItem("key")
 ```
 the above code will return data of that key from session storage.
-EG: ![image info](images/get-data.png)
+EG: ![image info](./images/get-data.png)
 #### Removing Data
 We can get data using `removeItem` or `clear`method.
 syntax :
