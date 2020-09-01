@@ -11,8 +11,8 @@ The keys and the values are  _always_  in the UTF-16  [`DOMString`](https://deve
 
 ### So what are `localStorage` disadvantages..?
 
- - data stored in `localStorage` has no expiration time
- - ` localStorage` will be available for any tab or window in the browser,
+- data stored in `localStorage` has no expiration time
+- ` localStorage` will be available for any tab or window in the browser,
 - Have to constantly keep back up of data to prevent loss
 -   The user is completely responsible for the safety of the data
 -   Takes up more storage space if you store locally
@@ -36,24 +36,29 @@ sessionStorage.setItem('key', 'Value');
 the above code will add the given key-value pair to session storage.
 EG:![image info](./images/set-session.png)
 
-so the session storage has one data with key `MyCat`
+so the session storage now  has  data with key `MyCat`
 
 ![image info](./images/data-saved.png)p
 
-
 #### Getting data
+
 We can get data using `getItem` method.
 syntax :
 ```js
+
 sessionStorage.getItem("key")
+
 ```
 the above code will return data of that key from session storage.
 EG: ![image info](./images/get-data.png)
+
 #### Removing Data
 We can get data using `removeItem` or `clear`method.
 syntax :
+
 ```js
 sessionStorage.removeItem("key")
 sessionStorage.clear()
 ```
+
 `removeItem` will remove a specific key from session storage,where as `clear` method will cleanup the entire session storage
