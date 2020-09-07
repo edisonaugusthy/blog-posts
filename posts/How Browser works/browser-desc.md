@@ -56,7 +56,7 @@ V8 compiles JavaScript code into machine code at execution by implementing a JIT
 ##### Ignition
 ---------
 The interpreter in v8 is called Ignition. The interpreter generates the byte-code. This is good for code that only needed to run only once. The byte-code runs inside the JavaScript engine itself. Interpreted code is falser to get something running but is a bit slower. Ignition resolve  overhead memory consumption th by achieving three objectives
- - reducing memory usage
+ -  reducing memory usage
  -  reducing startup time
  -  reducing complexity
 
