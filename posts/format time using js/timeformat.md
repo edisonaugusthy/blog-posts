@@ -1,7 +1,68 @@
-**See some of the common time formating  Javascript snippets with examples**
-#### GET OR SET
+**See some of the single line Javascript snippets for dealing with date** ✨♻️
 
-###### Get the Millisecond/Second/Minute/Hour of the given date
+#### Query
+
+###### Is Before
+
+Check if a date is before another date.
+
+```js
+// '2010-10-20' is before 2010-10-21
+new Date(2010, 10, 20) < new Date(2010, 10, 21);
+// => true
+```
+
+###### Is Same
+
+Check if a date is the same as another date.
+
+```js
+// '2010-10-20' is same of '2010-10-21'
+
+new Date(2010, 9, 20).valueOf() === new Date(2010, 9, 21).valueOf();
+// => false
+new Date(2010, 9, 20).valueOf() === new Date(2010, 9, 20).valueOf();
+// => true
+new Date(2010, 9, 20).getTime() === new Date(2010, 9, 20).getTime();
+// => true
+new Date(2010, 9, 20).valueOf() === new Date(2010, 9, 20).getTime();
+// => true
+new Date(2010, 9, 20).toDateString().substring(4, 7) ===
+  new Date(2010, 9, 21).toDateString().substring(4, 7);
+// => true
+```
+
+###### Is After
+
+Check if a date is after another date
+
+```js
+new Date(2010, 9, 20) > new Date(2010, 9, 19);
+// => true
+```
+
+###### Is Leap Year
+
+Check if a year is a leap year
+
+```js
+new Date(2000, 1, 29).getDate() === 29;
+// => true
+```
+
+###### Is a Date
+
+Check if a variable is a native js Date object.
+
+```js
+
+new Date() instanceof Date;
+// => true
+```
+--------------------------------
+
+#### GET Or SET
+ Get the Millisecond/Second/Minute/Hour of the given date
 
 ```js
 new Date().getSeconds();
@@ -10,7 +71,7 @@ new Date().getHours();
 // => 19
 ```
 
-###### Set the Millisecond/Second/Minute/Hour of the given date.
+ Set the Millisecond/Second/Minute/Hour of the given date.
 
 ```js
 new Date(new Date().setSeconds(30));
@@ -30,7 +91,7 @@ new Date().getDate();
 
 ```
 
-sets the day of the month
+Sets the day of the month
 
 ```js
 new Date().setDate(4);
@@ -57,7 +118,7 @@ new Date().setDate(new Date().getDate() - 14);
 
 ###### Day of Year
 
-Gets or sets the day of the year.
+Gets or Sets the day of the year.
 
 ```js
 
@@ -84,7 +145,7 @@ const dayWeek = Math.round((day - startOfYear) / MILLISECONDS_IN_WEEK) + 1;
 // => 37
 ```
 
-sets the week of the year
+Sets the week of the year
 
 ```js
 
@@ -116,7 +177,7 @@ new Date(2012, 02, 0).getDate();
 
 #### Parse
 
-###### Return the date parsed from date string using the given format string
+ Return the date parsed from date string using the given format string
 
 ```js
 const datePattern = /^(\d{2})-(\d{2})-(\d{4})$/;
@@ -125,7 +186,7 @@ new Date(`${month}, ${day} ${year}`);
 // => "1995-12-24T13:00:00.000Z"
 ```
 
-###### Return the date parsed from time string using the given format string
+ Return the date parsed from time string using the given format string
 
 ```js
 const datePattern = /^(\d{4})-(\d{2})-(\d{2})\s(\d{1,2}):(\d{2})$/;
@@ -202,62 +263,3 @@ Math.ceil(
 
 ----------------
 
-#### Query
-
-###### Is Before
-
-Check if a date is before another date.
-
-```js
-//'2010-10-20' is before 2010-10-21
-new Date(2010, 10, 20) < new Date(2010, 10, 21);
-// => true
-```
-
-###### Is Same
-
-Check if a date is the same as another date.
-
-```js
-// '2010-10-20'.is same of '2010-10-21'
-
-new Date(2010, 9, 20).valueOf() === new Date(2010, 9, 21).valueOf();
-// => false
-new Date(2010, 9, 20).valueOf() === new Date(2010, 9, 20).valueOf();
-// => true
-new Date(2010, 9, 20).getTime() === new Date(2010, 9, 20).getTime();
-// => true
-new Date(2010, 9, 20).valueOf() === new Date(2010, 9, 20).getTime();
-// => true
-new Date(2010, 9, 20).toDateString().substring(4, 7) ===
-  new Date(2010, 9, 21).toDateString().substring(4, 7);
-// => true
-```
-
-###### Is After
-
-Check if a date is after another date
-
-```js
-new Date(2010, 9, 20) > new Date(2010, 9, 19);
-// => true
-```
-
-###### Is Leap Year
-
-Check if a year is a leap year
-
-```js
-new Date(2000, 1, 29).getDate() === 29;
-// => true
-```
-
-###### Is a Date
-
-Check if a variable is a native js Date object.
-
-```js
-
-new Date() instanceof Date;
-// => true
-```
