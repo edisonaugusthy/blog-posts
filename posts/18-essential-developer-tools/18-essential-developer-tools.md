@@ -8,33 +8,9 @@ So this post is a combination of tools and resources I use, or keep close, to im
 
 If you already use any of these, feel free to share your view too. It is always helpful to know how other developers are using the same tools in their day-to-day work.
 
-## Screenshot names to add
-
-Add the screenshots inside:
-
-`posts/20-essential-developer-tools/images/`
-
-- `multi-device-viewer.png`
-- `react-scan.png`
-- `todiagram.png`
-- `diagrams-net.png`
-- `excalidraw.png`
-- `jam.png`
-- `beeceptor.png`
-- `affine.png`
-- `fish-shell.png`
-- `free-public-apis.png`
-- `polypane.png`
-- `skills-sh.png`
-- `ai-directories.png`
-- `patterns-dev.png`
-- `ddd-intro.png`
-- `software-engineering-at-google.png`
-- `llmtext.png`
-
 ## 1. [Angular Render Scan](https://www.npmjs.com/package/angular-render-scan)
 
-![Angular Render Scan screenshot](https://github.com/edisonaugusthy/angular-render-scan/raw/main/docs/assets/angular-render-scan-demo.gif)
+![Angular Render Scan screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/angular-render-scan.png)
 
 Angular Render Scan helps debug Angular change detection and component renders visually.
 
@@ -51,7 +27,7 @@ I would use it for:
 
 ## 2. [Multi Device Viewer](https://chromewebstore.google.com/detail/jfcnekmenjickfihkniaoaklehjmdhdb?utm_source=item-share-cb)
 
-![Multi Device Viewer screenshot](images/multi-device-viewer.png)
+![Multi Device Viewer screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/multi-device-viewer.png)
 
 Multi Device Viewer is a Chrome extension for checking responsive layouts across multiple devices at the same time.
 
@@ -68,7 +44,7 @@ I would use it for:
 
 ## 3. [React Scan](https://react-scan.com/)
 
-![React Scan screenshot](images/react-scan.png)
+![React Scan screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/react-scan.png)
 
 React Scan is useful for finding performance issues in React apps.
 
@@ -85,7 +61,7 @@ I would use it for:
 
 ## 4. [ToDiagram](https://todiagram.com/editor)
 
-![ToDiagram screenshot](images/todiagram.png)
+![ToDiagram screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/todiagram.png)
 
 ToDiagram is useful when data is technically readable, but still hard to understand.
 
@@ -102,7 +78,7 @@ I would use it for:
 
 ## 5. [diagrams.net](https://app.diagrams.net/)
 
-![diagrams.net screenshot](images/diagrams-net.png)
+![diagrams.net screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/diagrams-net.png)
 
 diagrams.net, also known as draw.io, is one of the tools I keep coming back to.
 
@@ -119,7 +95,7 @@ I would use it for:
 
 ## 6. [Excalidraw](https://excalidraw.com/)
 
-![Excalidraw screenshot](images/excalidraw.png)
+![Excalidraw screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/excalidraw.png)
 
 Excalidraw is great when the diagram does not need to look too formal.
 
@@ -136,7 +112,7 @@ I would use it for:
 
 ## 7. [Jam](https://jam.dev/)
 
-![Jam screenshot](images/jam.png)
+![Jam screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/jam.png)
 
 Jam makes bug reporting much easier.
 
@@ -153,7 +129,7 @@ I would use it for:
 
 ## 8. [Beeceptor](https://beeceptor.com/)
 
-![Beeceptor screenshot](images/beeceptor.png)
+![Beeceptor screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/beeceptor.png)
 
 Beeceptor is useful when you need a mock API quickly.
 
@@ -170,7 +146,7 @@ I would use it for:
 
 ## 9. [AFFiNE](https://affine.pro/)
 
-![AFFiNE screenshot](images/affine.png)
+![AFFiNE screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/affine.png)
 
 AFFiNE is an open-source workspace that combines docs, whiteboards, and databases.
 
@@ -187,7 +163,7 @@ I would use it for:
 
 ## 10. [fish shell](https://fishshell.com/)
 
-![fish shell screenshot](images/fish-shell.png)
+![fish shell screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/fish-shell.png)
 
 fish is a command line shell with good defaults.
 
@@ -204,7 +180,7 @@ I would use it for:
 
 ## 11. [Free Public APIs](https://www.freepublicapis.com/)
 
-![Free Public APIs screenshot](images/free-public-apis.png)
+![Free Public APIs screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/free-public-apis.png)
 
 Free Public APIs is a directory of public APIs.
 
@@ -221,7 +197,7 @@ I would use it for:
 
 ## 12. [Polypane](https://webcurate.co/polypane)
 
-![Polypane screenshot](images/polypane.png)
+![Polypane screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/polypane.png)
 
 Polypane is a browser built for web development and responsive testing.
 
@@ -238,7 +214,7 @@ I would use it for:
 
 ## 13. [Skills](https://www.skills.sh/)
 
-![Skills screenshot](images/skills-sh.png)
+![Skills screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/skills-sh.png)
 
 Skills is a directory for reusable capabilities for AI agents.
 
@@ -255,7 +231,7 @@ I would use it for:
 
 ## 14. [AI Directories](https://github.com/best-of-ai/ai-directories)
 
-![AI Directories screenshot](images/ai-directories.png)
+![AI Directories screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/ai-directories.png)
 
 This GitHub repo is a curated list of AI directories where people can submit AI tools.
 
@@ -272,7 +248,7 @@ I would use it for:
 
 ## 15. [Patterns.dev](https://www.patterns.dev/)
 
-![Patterns.dev screenshot](images/patterns-dev.png)
+![Patterns.dev screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/patterns-dev.png)
 
 Patterns.dev is a learning resource for design, rendering, and performance patterns in web apps.
 
@@ -289,7 +265,7 @@ I would use it for:
 
 ## 16. [An Introduction to Domain-Driven Design](https://khalilstemmler.com/articles/domain-driven-design-intro/)
 
-![Domain-Driven Design article screenshot](images/ddd-intro.png)
+![Domain-Driven Design article screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/ddd-intro.png)
 
 This is a good introduction to Domain-Driven Design.
 
@@ -306,7 +282,7 @@ I would use it for:
 
 ## 17. [Software Engineering at Google](https://abseil.io/resources/swe-book/html/pr01.html)
 
-![Software Engineering at Google screenshot](images/software-engineering-at-google.png)
+![Software Engineering at Google screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/software-engineering-at-google.png)
 
 Software Engineering at Google is a free online book about building and maintaining software over time.
 
@@ -323,7 +299,7 @@ I would use it for:
 
 ## 18. [LLMTEXT.com](https://llmtext.com/install)
 
-![LLMTEXT.com screenshot](images/llmtext.png)
+![LLMTEXT.com screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/llmtext.png)
 
 LLMTEXT.com is useful if you work with `llms.txt` and MCP servers.
 
