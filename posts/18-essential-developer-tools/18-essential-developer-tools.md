@@ -10,7 +10,7 @@ If you already use any of these, feel free to share your view too. It is always 
 
 ## 1. [Angular Render Scan](https://www.npmjs.com/package/angular-render-scan)
 
-![Angular Render Scan screenshot](https://github.com/edisonaugusthy/blog-posts/raw/master/posts/18-essential-developer-tools/images/angular-render-scan.png)
+![Angular Render Scan screenshot](https://github.com/edisonaugusthy/angular-render-scan/raw/main/docs/assets/angular-render-scan-demo.gif)
 
 Angular Render Scan helps debug Angular change detection and component renders visually.
 
