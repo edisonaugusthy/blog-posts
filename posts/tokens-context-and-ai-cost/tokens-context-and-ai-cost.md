@@ -1,8 +1,8 @@
 # What you should know about tokens, context, and AI cost
 
-Most of the use AI coding tools in a very normal way.
+Most of us use AI coding tools in a very normal way.
 
-We paste an error, ask for a fix, paste a file, ask again, run a command, paste the output, and keep going. After some time we get a message telling that `you are out of tokens/messages`
+We paste an error, ask for a fix, paste a file, ask again, run a command, paste the output, and keep going. After some time, we get a message saying something like `you are out of tokens` or `you have reached your message limit`.
 
 Most of the time, the reason is tokens.
 
